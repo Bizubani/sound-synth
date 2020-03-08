@@ -1,4 +1,3 @@
-#pragma once
 
 ///Derived from the following code base on github
 /*Copyright (C) 2018  Javidx9
@@ -9,12 +8,16 @@
 	https://www.github.com/onelonecoder
 	https://www.onelonecoder.com
 	https://www.youtube.com/javidx9
+	https://github.com/OneLoneCoder/synth.git
 	*/
 
 ///A class that accesses the computer's sound hardware directly.
 ///Used with the synth to produce sound.
 
+#pragma once
+
 #pragma comment(lib, "winmm.lib")
+
 #include <iostream>
 #include <cmath>
 #include <fstream>
